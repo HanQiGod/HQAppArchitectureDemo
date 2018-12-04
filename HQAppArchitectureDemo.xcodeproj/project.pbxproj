@@ -15,6 +15,29 @@
 		7A89E4CB21B60F8700B4F1B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E4CA21B60F8700B4F1B2 /* main.m */; };
 		7A89E4D521B60F8700B4F1B2 /* HQAppArchitectureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E4D421B60F8700B4F1B2 /* HQAppArchitectureDemoTests.m */; };
 		7A89E4E021B60F8700B4F1B2 /* HQAppArchitectureDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E4DF21B60F8700B4F1B2 /* HQAppArchitectureDemoUITests.m */; };
+		7A89E54F21B6137600B4F1B2 /* HQGeneralColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E54E21B6137600B4F1B2 /* HQGeneralColor.m */; };
+		7A89E55221B613AB00B4F1B2 /* HQGeneralFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E55121B613AB00B4F1B2 /* HQGeneralFont.m */; };
+		7A89E55521B613E200B4F1B2 /* HQNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E55421B613E200B4F1B2 /* HQNotificationManager.m */; };
+		7A89E55821B6142900B4F1B2 /* UICollectionView+HQGeneral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E55721B6142900B4F1B2 /* UICollectionView+HQGeneral.m */; };
+		7A89E55B21B6147C00B4F1B2 /* HQNaviagtionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E55A21B6147C00B4F1B2 /* HQNaviagtionViewController.m */; };
+		7A89E55E21B614BC00B4F1B2 /* UIScrollView+HQGeneral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E55D21B614BC00B4F1B2 /* UIScrollView+HQGeneral.m */; };
+		7A89E56121B6150300B4F1B2 /* UITableView+HQGeneral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E56021B6150300B4F1B2 /* UITableView+HQGeneral.m */; };
+		7A89E56421B615B500B4F1B2 /* UIViewController+HQGeneralHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E56321B615B500B4F1B2 /* UIViewController+HQGeneralHook.m */; };
+		7A89E56721B615CB00B4F1B2 /* UIViewController+HQGeneral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E56621B615CB00B4F1B2 /* UIViewController+HQGeneral.m */; };
+		7A89E56A21B6167400B4F1B2 /* NSString+HQCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E56921B6167400B4F1B2 /* NSString+HQCodec.m */; };
+		7A89E56D21B616C100B4F1B2 /* HQFrameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E56C21B616C100B4F1B2 /* HQFrameTool.m */; };
+		7A89E57021B616FA00B4F1B2 /* UIImage+HQImageProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E56F21B616FA00B4F1B2 /* UIImage+HQImageProcessing.m */; };
+		7A89E57321B6172E00B4F1B2 /* NSString+HQFontSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E57221B6172E00B4F1B2 /* NSString+HQFontSize.m */; };
+		7A89E57621B6178D00B4F1B2 /* HQSystemTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E57521B6178D00B4F1B2 /* HQSystemTool.m */; };
+		7A89E57A21B6181300B4F1B2 /* HQHomeDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E57921B6181300B4F1B2 /* HQHomeDataCenter.m */; };
+		7A89E57D21B6186000B4F1B2 /* HQHomeListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E57C21B6186000B4F1B2 /* HQHomeListModel.m */; };
+		7A89E58021B6188E00B4F1B2 /* HQHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E57F21B6188E00B4F1B2 /* HQHomeView.m */; };
+		7A89E58321B618AA00B4F1B2 /* HQHomeListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E58221B618AA00B4F1B2 /* HQHomeListCell.m */; };
+		7A89E58621B6198A00B4F1B2 /* HQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E58521B6198A00B4F1B2 /* HQHomeViewController.m */; };
+		7A89E58921B619E200B4F1B2 /* HQMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E58821B619E200B4F1B2 /* HQMineViewController.m */; };
+		7A89E58C21B61A1300B4F1B2 /* HQRootTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E58B21B61A1300B4F1B2 /* HQRootTabBarViewController.m */; };
+		7A89E58F21B61AA300B4F1B2 /* HQTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E58E21B61AA300B4F1B2 /* HQTrendsViewController.m */; };
+		B9CC20F6F92E080A34256913 /* libPods-HQAppArchitectureDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C616BEA40A2D610B8F8FD67A /* libPods-HQAppArchitectureDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +74,55 @@
 		7A89E4DB21B60F8700B4F1B2 /* HQAppArchitectureDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQAppArchitectureDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A89E4DF21B60F8700B4F1B2 /* HQAppArchitectureDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQAppArchitectureDemoUITests.m; sourceTree = "<group>"; };
 		7A89E4E121B60F8700B4F1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A89E54C21B611E500B4F1B2 /* HQPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQPrefixHeader.pch; sourceTree = "<group>"; };
+		7A89E54D21B6137600B4F1B2 /* HQGeneralColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQGeneralColor.h; sourceTree = "<group>"; };
+		7A89E54E21B6137600B4F1B2 /* HQGeneralColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQGeneralColor.m; sourceTree = "<group>"; };
+		7A89E55021B613AB00B4F1B2 /* HQGeneralFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQGeneralFont.h; sourceTree = "<group>"; };
+		7A89E55121B613AB00B4F1B2 /* HQGeneralFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQGeneralFont.m; sourceTree = "<group>"; };
+		7A89E55321B613E200B4F1B2 /* HQNotificationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQNotificationManager.h; sourceTree = "<group>"; };
+		7A89E55421B613E200B4F1B2 /* HQNotificationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQNotificationManager.m; sourceTree = "<group>"; };
+		7A89E55621B6142900B4F1B2 /* UICollectionView+HQGeneral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+HQGeneral.h"; sourceTree = "<group>"; };
+		7A89E55721B6142900B4F1B2 /* UICollectionView+HQGeneral.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+HQGeneral.m"; sourceTree = "<group>"; };
+		7A89E55921B6147C00B4F1B2 /* HQNaviagtionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQNaviagtionViewController.h; sourceTree = "<group>"; };
+		7A89E55A21B6147C00B4F1B2 /* HQNaviagtionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQNaviagtionViewController.m; sourceTree = "<group>"; };
+		7A89E55C21B614BC00B4F1B2 /* UIScrollView+HQGeneral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HQGeneral.h"; sourceTree = "<group>"; };
+		7A89E55D21B614BC00B4F1B2 /* UIScrollView+HQGeneral.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HQGeneral.m"; sourceTree = "<group>"; };
+		7A89E55F21B6150300B4F1B2 /* UITableView+HQGeneral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+HQGeneral.h"; sourceTree = "<group>"; };
+		7A89E56021B6150300B4F1B2 /* UITableView+HQGeneral.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HQGeneral.m"; sourceTree = "<group>"; };
+		7A89E56221B615B500B4F1B2 /* UIViewController+HQGeneralHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HQGeneralHook.h"; sourceTree = "<group>"; };
+		7A89E56321B615B500B4F1B2 /* UIViewController+HQGeneralHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HQGeneralHook.m"; sourceTree = "<group>"; };
+		7A89E56521B615CB00B4F1B2 /* UIViewController+HQGeneral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HQGeneral.h"; sourceTree = "<group>"; };
+		7A89E56621B615CB00B4F1B2 /* UIViewController+HQGeneral.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HQGeneral.m"; sourceTree = "<group>"; };
+		7A89E56821B6167400B4F1B2 /* NSString+HQCodec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HQCodec.h"; sourceTree = "<group>"; };
+		7A89E56921B6167400B4F1B2 /* NSString+HQCodec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HQCodec.m"; sourceTree = "<group>"; };
+		7A89E56B21B616C100B4F1B2 /* HQFrameTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQFrameTool.h; sourceTree = "<group>"; };
+		7A89E56C21B616C100B4F1B2 /* HQFrameTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQFrameTool.m; sourceTree = "<group>"; };
+		7A89E56E21B616FA00B4F1B2 /* UIImage+HQImageProcessing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+HQImageProcessing.h"; sourceTree = "<group>"; };
+		7A89E56F21B616FA00B4F1B2 /* UIImage+HQImageProcessing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HQImageProcessing.m"; sourceTree = "<group>"; };
+		7A89E57121B6172E00B4F1B2 /* NSString+HQFontSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HQFontSize.h"; sourceTree = "<group>"; };
+		7A89E57221B6172E00B4F1B2 /* NSString+HQFontSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HQFontSize.m"; sourceTree = "<group>"; };
+		7A89E57421B6178D00B4F1B2 /* HQSystemTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQSystemTool.h; sourceTree = "<group>"; };
+		7A89E57521B6178D00B4F1B2 /* HQSystemTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQSystemTool.m; sourceTree = "<group>"; };
+		7A89E57721B617DB00B4F1B2 /* HQToolMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQToolMacro.h; sourceTree = "<group>"; };
+		7A89E57821B6181300B4F1B2 /* HQHomeDataCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQHomeDataCenter.h; sourceTree = "<group>"; };
+		7A89E57921B6181300B4F1B2 /* HQHomeDataCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQHomeDataCenter.m; sourceTree = "<group>"; };
+		7A89E57B21B6186000B4F1B2 /* HQHomeListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQHomeListModel.h; sourceTree = "<group>"; };
+		7A89E57C21B6186000B4F1B2 /* HQHomeListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQHomeListModel.m; sourceTree = "<group>"; };
+		7A89E57E21B6188E00B4F1B2 /* HQHomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQHomeView.h; sourceTree = "<group>"; };
+		7A89E57F21B6188E00B4F1B2 /* HQHomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQHomeView.m; sourceTree = "<group>"; };
+		7A89E58121B618AA00B4F1B2 /* HQHomeListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQHomeListCell.h; sourceTree = "<group>"; };
+		7A89E58221B618AA00B4F1B2 /* HQHomeListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQHomeListCell.m; sourceTree = "<group>"; };
+		7A89E58421B6198A00B4F1B2 /* HQHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQHomeViewController.h; sourceTree = "<group>"; };
+		7A89E58521B6198A00B4F1B2 /* HQHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQHomeViewController.m; sourceTree = "<group>"; };
+		7A89E58721B619E200B4F1B2 /* HQMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQMineViewController.h; sourceTree = "<group>"; };
+		7A89E58821B619E200B4F1B2 /* HQMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQMineViewController.m; sourceTree = "<group>"; };
+		7A89E58A21B61A1300B4F1B2 /* HQRootTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQRootTabBarViewController.h; sourceTree = "<group>"; };
+		7A89E58B21B61A1300B4F1B2 /* HQRootTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQRootTabBarViewController.m; sourceTree = "<group>"; };
+		7A89E58D21B61AA300B4F1B2 /* HQTrendsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQTrendsViewController.h; sourceTree = "<group>"; };
+		7A89E58E21B61AA300B4F1B2 /* HQTrendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQTrendsViewController.m; sourceTree = "<group>"; };
+		93C38E41512CBFE37CCE7713 /* Pods-HQAppArchitectureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQAppArchitectureDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HQAppArchitectureDemo/Pods-HQAppArchitectureDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C616BEA40A2D610B8F8FD67A /* libPods-HQAppArchitectureDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HQAppArchitectureDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF70BFE405E903A779E470E9 /* Pods-HQAppArchitectureDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQAppArchitectureDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HQAppArchitectureDemo/Pods-HQAppArchitectureDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9CC20F6F92E080A34256913 /* libPods-HQAppArchitectureDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +151,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		492357A6EFE83CE9C2396B2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF70BFE405E903A779E470E9 /* Pods-HQAppArchitectureDemo.debug.xcconfig */,
+				93C38E41512CBFE37CCE7713 /* Pods-HQAppArchitectureDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7A89E4AF21B60F8400B4F1B2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +167,8 @@
 				7A89E4D321B60F8700B4F1B2 /* HQAppArchitectureDemoTests */,
 				7A89E4DE21B60F8700B4F1B2 /* HQAppArchitectureDemoUITests */,
 				7A89E4B921B60F8400B4F1B2 /* Products */,
+				492357A6EFE83CE9C2396B2A /* Pods */,
+				E0D15BE3FA939CB8B4F3BD9A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +185,13 @@
 		7A89E4BA21B60F8400B4F1B2 /* HQAppArchitectureDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7A89E4BB21B60F8400B4F1B2 /* AppDelegate.h */,
-				7A89E4BC21B60F8400B4F1B2 /* AppDelegate.m */,
-				7A89E4BE21B60F8400B4F1B2 /* ViewController.h */,
-				7A89E4BF21B60F8400B4F1B2 /* ViewController.m */,
-				7A89E4C121B60F8400B4F1B2 /* Main.storyboard */,
+				7A89E4F121B6103800B4F1B2 /* GeneralModules */,
+				7A89E4F021B6103800B4F1B2 /* ToolModules */,
+				7A89E4ED21B6103800B4F1B2 /* PackageModules */,
+				7A89E4EE21B6103800B4F1B2 /* BusinessModules */,
+				7A89E4EF21B6103800B4F1B2 /* AppEntrance */,
 				7A89E4C421B60F8700B4F1B2 /* Assets.xcassets */,
-				7A89E4C621B60F8700B4F1B2 /* LaunchScreen.storyboard */,
 				7A89E4C921B60F8700B4F1B2 /* Info.plist */,
-				7A89E4CA21B60F8700B4F1B2 /* main.m */,
 			);
 			path = HQAppArchitectureDemo;
 			sourceTree = "<group>";
@@ -132,6 +214,286 @@
 			path = HQAppArchitectureDemoUITests;
 			sourceTree = "<group>";
 		};
+		7A89E4ED21B6103800B4F1B2 /* PackageModules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PackageModules;
+			sourceTree = "<group>";
+		};
+		7A89E4EE21B6103800B4F1B2 /* BusinessModules */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E53221B611A900B4F1B2 /* RootViewController */,
+				7A89E53521B611A900B4F1B2 /* Home */,
+				7A89E52A21B611A900B4F1B2 /* Mine */,
+				7A89E52E21B611A900B4F1B2 /* Trends */,
+			);
+			path = BusinessModules;
+			sourceTree = "<group>";
+		};
+		7A89E4EF21B6103800B4F1B2 /* AppEntrance */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E4BB21B60F8400B4F1B2 /* AppDelegate.h */,
+				7A89E4BC21B60F8400B4F1B2 /* AppDelegate.m */,
+				7A89E4BE21B60F8400B4F1B2 /* ViewController.h */,
+				7A89E4BF21B60F8400B4F1B2 /* ViewController.m */,
+				7A89E4C621B60F8700B4F1B2 /* LaunchScreen.storyboard */,
+				7A89E4C121B60F8400B4F1B2 /* Main.storyboard */,
+				7A89E4CA21B60F8700B4F1B2 /* main.m */,
+				7A89E54C21B611E500B4F1B2 /* HQPrefixHeader.pch */,
+			);
+			path = AppEntrance;
+			sourceTree = "<group>";
+		};
+		7A89E4F021B6103800B4F1B2 /* ToolModules */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E51821B6118D00B4F1B2 /* Codec */,
+				7A89E52121B6118D00B4F1B2 /* Frame */,
+				7A89E51521B6118D00B4F1B2 /* ImageProcessing */,
+				7A89E51B21B6118D00B4F1B2 /* Layout */,
+				7A89E51E21B6118D00B4F1B2 /* System */,
+				7A89E57721B617DB00B4F1B2 /* HQToolMacro.h */,
+			);
+			path = ToolModules;
+			sourceTree = "<group>";
+		};
+		7A89E4F121B6103800B4F1B2 /* GeneralModules */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E4F521B6116300B4F1B2 /* Color */,
+				7A89E50921B6116300B4F1B2 /* Font */,
+				7A89E50621B6116300B4F1B2 /* Notification */,
+				7A89E4FD21B6116300B4F1B2 /* UICollectionView */,
+				7A89E4F221B6116300B4F1B2 /* UINavigationController */,
+				7A89E50021B6116300B4F1B2 /* UIScrollView */,
+				7A89E50321B6116300B4F1B2 /* UITableView */,
+				7A89E4F821B6116300B4F1B2 /* UIViewController */,
+			);
+			path = GeneralModules;
+			sourceTree = "<group>";
+		};
+		7A89E4F221B6116300B4F1B2 /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E55921B6147C00B4F1B2 /* HQNaviagtionViewController.h */,
+				7A89E55A21B6147C00B4F1B2 /* HQNaviagtionViewController.m */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		7A89E4F521B6116300B4F1B2 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E54D21B6137600B4F1B2 /* HQGeneralColor.h */,
+				7A89E54E21B6137600B4F1B2 /* HQGeneralColor.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		7A89E4F821B6116300B4F1B2 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E56221B615B500B4F1B2 /* UIViewController+HQGeneralHook.h */,
+				7A89E56321B615B500B4F1B2 /* UIViewController+HQGeneralHook.m */,
+				7A89E56521B615CB00B4F1B2 /* UIViewController+HQGeneral.h */,
+				7A89E56621B615CB00B4F1B2 /* UIViewController+HQGeneral.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		7A89E4FD21B6116300B4F1B2 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E55621B6142900B4F1B2 /* UICollectionView+HQGeneral.h */,
+				7A89E55721B6142900B4F1B2 /* UICollectionView+HQGeneral.m */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		7A89E50021B6116300B4F1B2 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E55C21B614BC00B4F1B2 /* UIScrollView+HQGeneral.h */,
+				7A89E55D21B614BC00B4F1B2 /* UIScrollView+HQGeneral.m */,
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		7A89E50321B6116300B4F1B2 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E55F21B6150300B4F1B2 /* UITableView+HQGeneral.h */,
+				7A89E56021B6150300B4F1B2 /* UITableView+HQGeneral.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		7A89E50621B6116300B4F1B2 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E55321B613E200B4F1B2 /* HQNotificationManager.h */,
+				7A89E55421B613E200B4F1B2 /* HQNotificationManager.m */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		7A89E50921B6116300B4F1B2 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E55021B613AB00B4F1B2 /* HQGeneralFont.h */,
+				7A89E55121B613AB00B4F1B2 /* HQGeneralFont.m */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		7A89E51521B6118D00B4F1B2 /* ImageProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E56E21B616FA00B4F1B2 /* UIImage+HQImageProcessing.h */,
+				7A89E56F21B616FA00B4F1B2 /* UIImage+HQImageProcessing.m */,
+			);
+			path = ImageProcessing;
+			sourceTree = "<group>";
+		};
+		7A89E51821B6118D00B4F1B2 /* Codec */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E56821B6167400B4F1B2 /* NSString+HQCodec.h */,
+				7A89E56921B6167400B4F1B2 /* NSString+HQCodec.m */,
+			);
+			path = Codec;
+			sourceTree = "<group>";
+		};
+		7A89E51B21B6118D00B4F1B2 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E57121B6172E00B4F1B2 /* NSString+HQFontSize.h */,
+				7A89E57221B6172E00B4F1B2 /* NSString+HQFontSize.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		7A89E51E21B6118D00B4F1B2 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E57421B6178D00B4F1B2 /* HQSystemTool.h */,
+				7A89E57521B6178D00B4F1B2 /* HQSystemTool.m */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		7A89E52121B6118D00B4F1B2 /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E56B21B616C100B4F1B2 /* HQFrameTool.h */,
+				7A89E56C21B616C100B4F1B2 /* HQFrameTool.m */,
+			);
+			path = Frame;
+			sourceTree = "<group>";
+		};
+		7A89E52A21B611A900B4F1B2 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E52B21B611A900B4F1B2 /* ViewController */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		7A89E52B21B611A900B4F1B2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E58721B619E200B4F1B2 /* HQMineViewController.h */,
+				7A89E58821B619E200B4F1B2 /* HQMineViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7A89E52E21B611A900B4F1B2 /* Trends */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E52F21B611A900B4F1B2 /* ViewController */,
+			);
+			path = Trends;
+			sourceTree = "<group>";
+		};
+		7A89E52F21B611A900B4F1B2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E58D21B61AA300B4F1B2 /* HQTrendsViewController.h */,
+				7A89E58E21B61AA300B4F1B2 /* HQTrendsViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7A89E53221B611A900B4F1B2 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E58A21B61A1300B4F1B2 /* HQRootTabBarViewController.h */,
+				7A89E58B21B61A1300B4F1B2 /* HQRootTabBarViewController.m */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		7A89E53521B611A900B4F1B2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E53621B611A900B4F1B2 /* DataCenter */,
+				7A89E53921B611A900B4F1B2 /* Model */,
+				7A89E53C21B611A900B4F1B2 /* View */,
+				7A89E54121B611A900B4F1B2 /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7A89E53621B611A900B4F1B2 /* DataCenter */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E57821B6181300B4F1B2 /* HQHomeDataCenter.h */,
+				7A89E57921B6181300B4F1B2 /* HQHomeDataCenter.m */,
+			);
+			path = DataCenter;
+			sourceTree = "<group>";
+		};
+		7A89E53921B611A900B4F1B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E57B21B6186000B4F1B2 /* HQHomeListModel.h */,
+				7A89E57C21B6186000B4F1B2 /* HQHomeListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A89E53C21B611A900B4F1B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E57E21B6188E00B4F1B2 /* HQHomeView.h */,
+				7A89E57F21B6188E00B4F1B2 /* HQHomeView.m */,
+				7A89E58121B618AA00B4F1B2 /* HQHomeListCell.h */,
+				7A89E58221B618AA00B4F1B2 /* HQHomeListCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A89E54121B611A900B4F1B2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7A89E58421B6198A00B4F1B2 /* HQHomeViewController.h */,
+				7A89E58521B6198A00B4F1B2 /* HQHomeViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E0D15BE3FA939CB8B4F3BD9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C616BEA40A2D610B8F8FD67A /* libPods-HQAppArchitectureDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +501,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A89E4E421B60F8700B4F1B2 /* Build configuration list for PBXNativeTarget "HQAppArchitectureDemo" */;
 			buildPhases = (
+				F4D7E39A329973BACEAF2DB7 /* [CP] Check Pods Manifest.lock */,
 				7A89E4B421B60F8400B4F1B2 /* Sources */,
 				7A89E4B521B60F8400B4F1B2 /* Frameworks */,
 				7A89E4B621B60F8400B4F1B2 /* Resources */,
+				BEA756177209EEF2EA3EDAFC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +621,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BEA756177209EEF2EA3EDAFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HQAppArchitectureDemo/Pods-HQAppArchitectureDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HQAppArchitectureDemo/Pods-HQAppArchitectureDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4D7E39A329973BACEAF2DB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HQAppArchitectureDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A89E4B421B60F8400B4F1B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A89E58621B6198A00B4F1B2 /* HQHomeViewController.m in Sources */,
+				7A89E56D21B616C100B4F1B2 /* HQFrameTool.m in Sources */,
 				7A89E4C021B60F8400B4F1B2 /* ViewController.m in Sources */,
+				7A89E55221B613AB00B4F1B2 /* HQGeneralFont.m in Sources */,
+				7A89E58F21B61AA300B4F1B2 /* HQTrendsViewController.m in Sources */,
+				7A89E55B21B6147C00B4F1B2 /* HQNaviagtionViewController.m in Sources */,
+				7A89E57D21B6186000B4F1B2 /* HQHomeListModel.m in Sources */,
+				7A89E55E21B614BC00B4F1B2 /* UIScrollView+HQGeneral.m in Sources */,
+				7A89E56721B615CB00B4F1B2 /* UIViewController+HQGeneral.m in Sources */,
+				7A89E56421B615B500B4F1B2 /* UIViewController+HQGeneralHook.m in Sources */,
 				7A89E4CB21B60F8700B4F1B2 /* main.m in Sources */,
+				7A89E58C21B61A1300B4F1B2 /* HQRootTabBarViewController.m in Sources */,
+				7A89E57321B6172E00B4F1B2 /* NSString+HQFontSize.m in Sources */,
+				7A89E57A21B6181300B4F1B2 /* HQHomeDataCenter.m in Sources */,
+				7A89E55821B6142900B4F1B2 /* UICollectionView+HQGeneral.m in Sources */,
+				7A89E54F21B6137600B4F1B2 /* HQGeneralColor.m in Sources */,
+				7A89E57621B6178D00B4F1B2 /* HQSystemTool.m in Sources */,
+				7A89E58321B618AA00B4F1B2 /* HQHomeListCell.m in Sources */,
+				7A89E56121B6150300B4F1B2 /* UITableView+HQGeneral.m in Sources */,
+				7A89E57021B616FA00B4F1B2 /* UIImage+HQImageProcessing.m in Sources */,
+				7A89E58021B6188E00B4F1B2 /* HQHomeView.m in Sources */,
+				7A89E55521B613E200B4F1B2 /* HQNotificationManager.m in Sources */,
 				7A89E4BD21B60F8400B4F1B2 /* AppDelegate.m in Sources */,
+				7A89E58921B619E200B4F1B2 /* HQMineViewController.m in Sources */,
+				7A89E56A21B6167400B4F1B2 /* NSString+HQCodec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,14 +858,13 @@
 		};
 		7A89E4E521B60F8700B4F1B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF70BFE405E903A779E470E9 /* Pods-HQAppArchitectureDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "/Users/jkdzkj/Desktop/HQWork/WorkSpace/GitHub项目/HQAppArchitectureDemo/HQAppArchitectureDemo/AppEntrance/HQPrefixHeader.pch";
 				INFOPLIST_FILE = HQAppArchitectureDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JunKai.HQAppArchitectureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,14 +873,13 @@
 		};
 		7A89E4E621B60F8700B4F1B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93C38E41512CBFE37CCE7713 /* Pods-HQAppArchitectureDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "/Users/jkdzkj/Desktop/HQWork/WorkSpace/GitHub项目/HQAppArchitectureDemo/HQAppArchitectureDemo/AppEntrance/HQPrefixHeader.pch";
 				INFOPLIST_FILE = HQAppArchitectureDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JunKai.HQAppArchitectureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,11 +892,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HQAppArchitectureDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JunKai.HQAppArchitectureDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,11 +906,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HQAppArchitectureDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JunKai.HQAppArchitectureDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -504,11 +919,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HQAppArchitectureDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JunKai.HQAppArchitectureDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -521,11 +932,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HQAppArchitectureDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JunKai.HQAppArchitectureDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -1,0 +1,37 @@
+//
+//  HQPrefixHeader.pch
+//  HQAppArchitectureDemo
+//
+//  Created by 君凯商联网 on 2018/12/4.
+//  Copyright © 2018 君凯商联网. All rights reserved.
+//
+
+#ifndef HQPrefixHeader_pch
+#define HQPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+//三方库
+#import <Masonry/Masonry.h>
+
+//GeneralModules
+#import "HQGeneralColor.h"
+#import "HQGeneralFont.h"
+#import "HQNotificationManager.h"
+#import "UIScrollView+HQGeneral.h"
+#import "UITableView+HQGeneral.h"
+#import "UICollectionView+HQGeneral.h"
+
+//ToolModules
+#import "HQToolMacro.h"
+#import "HQSystemTool.h"
+#import "HQFrameTool.h"
+
+
+
+
+
+#endif /* HQPrefixHeader_pch */
+
