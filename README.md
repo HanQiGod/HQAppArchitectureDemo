@@ -87,7 +87,7 @@ Mediator 使用 Target-Action 来间接的调用目标组件，无需专门注�
 
 实际上，非得使用宏的地方并非那么多，比如需要定义一个全局的导航栏字体方便使用，可以将通用字体的配置参数作为一个模块：
 
-    @interface YBGeneralFont : NSObject
+    @interface HQGeneralFont : NSObject
     /** 导航栏标题字体 */
     + (UIFont *)navigationBarTitleFont;
     @end
@@ -116,16 +116,16 @@ Mediator 使用 Target-Action 来间接的调用目标组件，无需专门注�
 
 其实只要留意 iOS 官方的 API，你就不难发现装饰模式的大量应用，使用数个分类将大量的方法按照功能分类，会清晰且优雅：
 
-    @interface UIViewController (YBGeneral)
+    @interface UIViewController (HQGeneral)
     /** 基础配置 */
-    - (void)YBGeneral_baseConfig;
+    - (void)HQGeneral_baseConfig;
     @end
     
-    @interface UIViewController (YBGeneralBackItem)
+    @interface UIViewController (HQGeneralBackItem)
     /** 配置通用系统导航栏返回按钮 */
-    - (void)YBGeneral_configBackItem;
+    - (void)HQGeneral_configBackItem;
     /** 重写该方法以自定义系统导航栏返回按钮点击事件 */
-    - (void)YBGeneral_clickBackItem:(UIBarButtonItem *)item;
+    - (void)HQGeneral_clickBackItem:(UIBarButtonItem *)item;
     @end
 
 不过要注意的时，定义分类的时候一定要加一个前缀标识以避免方法覆盖。
@@ -136,7 +136,7 @@ Mediator 使用 Target-Action 来间接的调用目标组件，无需专门注�
 
 ```
 + (void)load {
-    [self HQGeneralHook_exchangeImplementationsWithOriginSel:@selector(viewDidLoad) customSel:@selector(YBGeneralHook_viewDidLoad)];
+    [self HQGeneralHook_exchangeImplementationsWithOriginSel:@selector(viewDidLoad) customSel:@selector(HQGeneralHook_viewDidLoad)];
 }
 
 + (void)HQGeneralHook_exchangeImplementationsWithOriginSel:(SEL)originSel customSel:(SEL)customSel {
