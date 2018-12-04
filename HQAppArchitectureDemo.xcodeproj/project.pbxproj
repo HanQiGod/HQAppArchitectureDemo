@@ -250,12 +250,12 @@
 		7A89E4F021B6103800B4F1B2 /* ToolModules */ = {
 			isa = PBXGroup;
 			children = (
+				7A89E57721B617DB00B4F1B2 /* HQToolMacro.h */,
 				7A89E51821B6118D00B4F1B2 /* Codec */,
 				7A89E52121B6118D00B4F1B2 /* Frame */,
 				7A89E51521B6118D00B4F1B2 /* ImageProcessing */,
 				7A89E51B21B6118D00B4F1B2 /* Layout */,
 				7A89E51E21B6118D00B4F1B2 /* System */,
-				7A89E57721B617DB00B4F1B2 /* HQToolMacro.h */,
 			);
 			path = ToolModules;
 			sourceTree = "<group>";
@@ -864,7 +864,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "/Users/jkdzkj/Desktop/HQWork/WorkSpace/GitHub项目/HQAppArchitectureDemo/HQAppArchitectureDemo/AppEntrance/HQPrefixHeader.pch";
 				INFOPLIST_FILE = HQAppArchitectureDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = JunKai.HQAppArchitectureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -879,7 +882,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "/Users/jkdzkj/Desktop/HQWork/WorkSpace/GitHub项目/HQAppArchitectureDemo/HQAppArchitectureDemo/AppEntrance/HQPrefixHeader.pch";
 				INFOPLIST_FILE = HQAppArchitectureDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = JunKai.HQAppArchitectureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -892,7 +898,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HQAppArchitectureDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = JunKai.HQAppArchitectureDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -906,7 +916,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HQAppArchitectureDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = JunKai.HQAppArchitectureDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -919,7 +933,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HQAppArchitectureDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = JunKai.HQAppArchitectureDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -932,7 +950,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HQAppArchitectureDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = JunKai.HQAppArchitectureDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

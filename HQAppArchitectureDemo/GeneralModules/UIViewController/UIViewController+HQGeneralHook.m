@@ -15,7 +15,7 @@
 @implementation UIViewController (HQGeneralHook)
 
 + (void)load {
-    [self HQGeneralHook_exchangeImplementationsWithOriginSel:@selector(viewDidLoad) customSel:@selector(YBGeneralHook_viewDidLoad)];
+    [self HQGeneralHook_exchangeImplementationsWithOriginSel:@selector(viewDidLoad) customSel:@selector(HQGeneralHook_viewDidLoad)];
 }
 
 + (void)HQGeneralHook_exchangeImplementationsWithOriginSel:(SEL)originSel customSel:(SEL)customSel {
