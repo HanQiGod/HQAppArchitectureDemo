@@ -22,7 +22,7 @@
 @implementation UIViewController (HQGeneralBackItem)
 
 - (void)HQGeneral_configBackItem {
-    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithTitle:nil style:UIBarButtonItemStylePlain target:self action:@selector(YBGeneral_clickBackItem:)];
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithTitle:nil style:UIBarButtonItemStylePlain target:self action:@selector(HQGeneral_clickBackItem:)];
     backItem.image = [[UIImage imageNamed:@"btn_back_white"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     self.navigationItem.leftBarButtonItem = backItem;
 }
